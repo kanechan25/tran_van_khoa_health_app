@@ -3,16 +3,16 @@ import styles from './Menu.scss';
 import { Link } from 'react-router-dom';
 import config from 'src/config';
 import { useHistory } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { isLoginSelector } from 'src/redux/selectors';
 import { isLogin } from 'src/redux/actions';
 
 const cx = classNames.bind(styles);
-
 function Menu({ open }) {
     const loginState = useSelector(isLoginSelector);
     const [login, setLogin] = useState(loginState);
+    const menu = useRef();
     const dispatch = useDispatch();
     let history = useHistory();
 
@@ -29,7 +29,7 @@ function Menu({ open }) {
 
     if (open) {
         return (
-            <div className={cx('wrapper-menu')}>
+            <div className={cx('wrapper-menu')} id="wrapper-menu" ref={menu}>
                 {login ? (
                     <div className={cx('wrapper-menu-loggedin')}>
                         <div className={cx('container-menu')}>
@@ -67,7 +67,7 @@ function Menu({ open }) {
                                     <span className={cx('menu-item')}>設定</span>
                                 </Link>
                                 <Link to={config.routes.news}>
-                                    <span className={cx('menu-item')}>ニュース</span>
+                                    <span className={cx('menu-item')}>お知らせ</span>
                                 </Link>
                             </div>
                         </div>

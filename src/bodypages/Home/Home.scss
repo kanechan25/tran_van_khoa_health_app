@@ -5,6 +5,7 @@
     .wrapper-home-non-login {
         display: flex;
         position: relative;
+        z-index: 99;
         .non-login {
             padding-right: 0px !important;
             padding-left: 0px !important;
@@ -15,6 +16,8 @@
     .wrapper-home-loggedin {
         display: flex;
         position: relative;
+        z-index: 99;
+
         .login {
             padding-right: 0px !important;
             padding-left: 0px !important;

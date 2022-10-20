@@ -3,7 +3,6 @@ import styles from './Header.scss';
 import { useRef, useState } from 'react';
 import config from 'src/config';
 import { Link } from 'react-router-dom';
-
 import icons from 'src/assets/icons/icons';
 import Menu from 'src/components/Menu/Menu';
 
@@ -20,7 +19,7 @@ function Header() {
     };
     return (
         <header className={cx('wrapper-header')}>
-            {openMenu ? <div onClick={handleCloseMenu} className={cx('overlay')}></div> : ''}
+            {openMenu && <div onClick={handleCloseMenu} className={cx('overlay')}></div>}
             <div className={cx('container-header')}>
                 <Link to={config.routes.home} className={cx('logo-header')}>
                     <img className={cx('navbar-img logo-img')} src={icons.logo} alt="logo" />

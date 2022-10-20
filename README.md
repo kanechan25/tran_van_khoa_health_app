@@ -1,15 +1,34 @@
 # <img src="https://github.com/kanechan25/kanechan25/blob/main/img/interface/logo_ce2dev.png" width="30px"> Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" height="25px"> A Full-stack Web Developer
 
-## <a href="https://jwt2425.vercel.app/" target="_blank" rel="noopener noreferrer" >Click here to go to JWT Auth Example</a>
+## Technology stack in project: Reactjs, Redux, JavaScript, HTML, SCSS.
 
--   You can Log In by:
-    email: admin@gmail.com
-    password: admin
--   Hoping it make you enjoy!
+## This is a web application for Health care.
 
-  <br />
+### When you have not logged in yet, webpage appear on Browser as below,
+
+-   You can click to Log In button to log in:
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+
+### After Logging in, webpage render Your Top page,
+
+-   Anytime, you can Log Out here:
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+
+### Logo Healthy is also a path to go back Home page, and See more button is activated:
+
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+
+### There is a My Record page (logging in status):
+
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+    <br />
+
+-   Hoping you have good experiment!
+
+<br />
 
 -   kt.itengineer@gmail.com
--   [Reading for funny (Vietnamese)](https://ngoatv.blogspot.com/)
+-   [My Website](https://khoatran25.vercel.app/)
+-   [Youtube](https://www.youtube.com/c/CE2Dev)
 
 ### <img src="https://github.com/kanechan25/kanechan25/blob/main/img/interface/logo_ce2dev.png" width="25px"> © 2022 kanechan25

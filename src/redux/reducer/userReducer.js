@@ -9,6 +9,7 @@ const userReducer = (state = initState, action) => {
                 ...state,
                 isLogin: action.payload,
             };
+
         default:
             return state;
     }
