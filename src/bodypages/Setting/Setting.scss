@@ -1,0 +1,13 @@
+.wrapper-setting {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    .wrapper-setting-non-login,
+    .wrapper-setting-loggedin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

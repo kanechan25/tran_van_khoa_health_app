@@ -1,0 +1,26 @@
+.wrapper-footer {
+    z-index: 999;
+    height: var(--default-footer-height);
+    width: var(--default-layout-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark500);
+    color: var(--light);
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: var(--default-body-width);
+        .list-footer {
+            .footer-item {
+                margin-right: 4.5rem;
+                font-family: var(--font-kaku);
+                font-size: 1.1rem;
+                font-weight: 300;
+            }
+        }
+    }
+}

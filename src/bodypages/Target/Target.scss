@@ -1,0 +1,12 @@
+.wrapper-target {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    .wrapper-target-loggedin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

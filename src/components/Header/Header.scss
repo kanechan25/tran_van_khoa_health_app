@@ -1,0 +1,79 @@
+.overlay {
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wrapper-header {
+    z-index: 999;
+    height: var(--default-header-height);
+    width: var(--default-layout-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark500);
+    color: var(--light);
+    font-family: var(--font-kaku);
+    font-size: 1.6rem;
+    font-weight: 300;
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: var(--default-body-width);
+        .logo-header {
+            height: var(--default-header-height);
+        }
+        .navbar-header {
+            display: flex;
+            flex-direction: row;
+            .navbar-item {
+                width: 16rem;
+                height: 4.8rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                position: relative;
+                cursor: pointer;
+                .navbar-img {
+                    height: 3.2rem;
+                }
+                .count-img {
+                    position: absolute;
+                    width: 16px;
+                    height: 16px;
+                    left: calc(50% - 16px / 2 - 48px);
+                    top: calc(50% - 16px / 2 - 8px);
+                }
+                .navbar-text {
+                    line-height: 2.3rem;
+                    margin-left: 0.8rem;
+                }
+            }
+            .navbar-menu {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                position: relative;
+                z-index: 1000 !important;
+                .menu-btn {
+                    position: relative;
+                    .menu-img {
+                        cursor: pointer;
+                    }
+                }
+                .navbar-menu-list {
+                    position: absolute;
+                    top: 4rem;
+                    right: 0;
+                }
+            }
+        }
+    }
+}

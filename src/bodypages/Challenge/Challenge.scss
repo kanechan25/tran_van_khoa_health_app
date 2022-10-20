@@ -1,0 +1,13 @@
+.wrapper-challenge {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    .wrapper-challenge-non-login,
+    .wrapper-challenge-loggedin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

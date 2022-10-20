@@ -1,0 +1,61 @@
+:root {
+    --doc-height: 100%;
+    --light: #ffffff;
+    --primary300: #ffcc21;
+    --primary400: #ff963c;
+    --primary500: #ea6c00;
+    --secondary300: #8fe9d0;
+    --dark600: #2e2e2e;
+    --dark500: #414141;
+    --gray400: #777777;
+
+    --default-header-height: 64px;
+    --default-footer-height: 128px;
+    --default-layout-width: 1280px;
+    --default-body-width: 960px;
+
+    --font-noto: 'Noto Sans JP', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-kaku: 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    font-family: var(--font-kaku);
+    min-height: calc(100vh - 25px);
+}
+
+body::-webkit-scrollbar-track {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+a[href] {
+    color: var(--color-text);
+    text-decoration: none;
+}

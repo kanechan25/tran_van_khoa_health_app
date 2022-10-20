@@ -1,0 +1,25 @@
+.wrapper-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper-home-non-login {
+        display: flex;
+        position: relative;
+        .non-login {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+    }
+    .wrapper-home-loggedin {
+        display: flex;
+        position: relative;
+        .login {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+    }
+}
