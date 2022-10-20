@@ -4,7 +4,6 @@ import config from 'src/config';
 import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
-// const log = console.log.bind(console);
 function Footer() {
     return (
         <footer className={cx('wrapper-footer')}>

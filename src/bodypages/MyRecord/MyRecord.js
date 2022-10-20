@@ -1,10 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './MyRecord.scss';
 import { useState } from 'react';
-// import * as userServices from 'src/services/userServices';
-// import { useHistory } from 'react-router-dom';
-// import { useDispatch } from 'react-redux';
-// import { isLogin, saveLoginData } from 'src/redux/actions';
 import { NavRecord, MyDiary, MyExcercise } from './MyRecordDatabase';
 import icons from 'src/assets/icons/icons';
 

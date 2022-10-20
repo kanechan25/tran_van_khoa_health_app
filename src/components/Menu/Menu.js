@@ -9,7 +9,6 @@ import { isLoginSelector } from 'src/redux/selectors';
 import { isLogin } from 'src/redux/actions';
 
 const cx = classNames.bind(styles);
-// const log = console.log.bind(console);
 
 function Menu({ open }) {
     const loginState = useSelector(isLoginSelector);

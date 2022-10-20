@@ -1,10 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './TopPage.scss';
 import { useState } from 'react';
-// import * as userServices from 'src/services/userServices';
-// import { useHistory } from 'react-router-dom';
-// import { useDispatch } from 'react-redux';
-// import { isLogin, saveLoginData } from 'src/redux/actions';
 import { MealItems, InputItems, MealMoreItems } from 'src/bodypages/TopPage/TopPageDatabase';
 import icons from 'src/assets/icons/icons';
 import photos from 'src/assets/photos/photos';

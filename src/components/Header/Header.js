@@ -3,33 +3,14 @@ import styles from './Header.scss';
 import { useRef, useState } from 'react';
 import config from 'src/config';
 import { Link } from 'react-router-dom';
-// import { useSelector, useDispatch } from 'react-redux';
-// import { useHistory } from 'react-router-dom';
-// import { isLoginSelector, usernameSelector } from 'src/redux/selectors';
-// import { isLogout } from 'src/redux/actions';
+
 import icons from 'src/assets/icons/icons';
-// import photos from 'src/assets/photos/photos';
 import Menu from 'src/components/Menu/Menu';
 
 const cx = classNames.bind(styles);
-// const log = console.log.bind(console);
 function Header() {
     const [openMenu, setOpenMenu] = useState(false);
     const menuRef = useRef();
-    // const isLogin = useSelector(isLoginSelector);
-    // const username = useSelector(usernameSelector);
-    // const [login, setLogin] = useState(false);
-    // let navigate = useHistory();
-    // const dispatch = useDispatch();
-
-    // useEffect(() => {
-    //     setLogin(isLogin);
-    // }, [isLogin]);
-
-    // const handleLogout = (e) => {
-    //     e.preventDefault();
-    //     dispatch(isLogout(false));
-    // };
 
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
@@ -45,10 +26,7 @@ function Header() {
                     <img className={cx('navbar-img logo-img')} src={icons.logo} alt="logo" />
                 </Link>
                 <div className={cx('navbar-header')}>
-                    <Link
-                        to={config.routes.myRecord}
-                        className={cx('navbar-item navbar-record')}
-                    >
+                    <Link to={config.routes.myRecord} className={cx('navbar-item navbar-record')}>
                         <img
                             className={cx('navbar-img record-img')}
                             src={icons.headerRecord}
@@ -85,11 +63,7 @@ function Header() {
                                     alt="close"
                                 />
                             ) : (
-                                <img
-                                    className={cx('menu-img')}
-                                    src={icons.headerMenu}
-                                    alt="menu"
-                                />
+                                <img className={cx('menu-img')} src={icons.headerMenu} alt="menu" />
                             )}
                         </div>
 

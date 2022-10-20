@@ -21,6 +21,9 @@
     font-family: var(--font-kaku);
     font-size: 1.6rem;
     font-weight: 300;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     .container-header {
         display: flex;
         flex-direction: row;
