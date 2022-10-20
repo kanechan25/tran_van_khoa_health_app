@@ -7,20 +7,20 @@
 ### When you have not logged in yet, webpage appear on Browser as below,
 
 -   You can click to Log In button to log in:
--   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/readme/readme1.jpg">
 
 ### After Logging in, webpage render Your Top page,
 
 -   Anytime, you can Log Out here:
--   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/readme/readme2.jpg">
 
 ### Logo Healthy is also a path to go back Home page, and See more button is activated:
 
--   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+-   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/readme/readme3.jpg">
 
 ### There is a My Record page (logging in status):
 
--   <img src="https://raw.githubusercontent.com/kanechan25/tran_van_khoa_health_app/main/src/assets/photos/column-1.jpg">
+-   <img src="https://github.com/kanechan25/tran_van_khoa_health_app/blob/main/src/assets/readme/arent_task.gif">
     <br />
 
 -   Hoping you have good experiment!
